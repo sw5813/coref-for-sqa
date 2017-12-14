@@ -662,8 +662,8 @@ def tablesDataPaths
       # Pristine test test
       'test' => l(
         o('Dataset.inPaths',
-          "train,#{baseDir}train.examples",
-          "test,#{baseDir}test.examples"),
+          "train,#{baseDir}mod-train.examples",
+          "test,#{baseDir}mod-test.examples"),
           #"test,#{baseDir}pristine-unseen-tables.examples"),
         o('Dataset.trainFrac', 1), o('Dataset.devFrac', 0),
         let(:unseen, 1),
@@ -673,8 +673,8 @@ def tablesDataPaths
     ['1', '2', '3', '4', '5'].each do |x|
       datasets['u-' + x] = l(
         o('Dataset.inPaths',
-          "train,#{baseDir}random-split-#{x}-train.examples",
-          "dev,#{baseDir}random-split-#{x}-dev.examples",
+          "train,#{baseDir}mod-random-split-#{x}-train.examples",
+          "dev,#{baseDir}mod-random-split-#{x}-dev.examples",
         nil),
         let(:unseen, 1),
       nil)

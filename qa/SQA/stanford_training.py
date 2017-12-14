@@ -29,18 +29,18 @@ def write_seq_parser_input(fold, out_name):
 
 if __name__ == '__main__':
 
-    write_seq_parser_input('data/train.tsv', 'train')
-    write_seq_parser_input('data/test.tsv', 'test')
-    write_seq_parser_input('data/random-split-1-train.tsv', 'random-split-1-train')
-    write_seq_parser_input('data/random-split-1-dev.tsv', 'random-split-1-dev')
-    write_seq_parser_input('data/random-split-2-train.tsv', 'random-split-2-train')
-    write_seq_parser_input('data/random-split-2-dev.tsv', 'random-split-2-dev')
-    write_seq_parser_input('data/random-split-3-train.tsv', 'random-split-3-train')
-    write_seq_parser_input('data/random-split-3-dev.tsv', 'random-split-3-dev')
-    write_seq_parser_input('data/random-split-4-train.tsv', 'random-split-4-train')
-    write_seq_parser_input('data/random-split-4-dev.tsv', 'random-split-4-dev')
-    write_seq_parser_input('data/random-split-5-train.tsv', 'random-split-5-train')
-    write_seq_parser_input('data/random-split-5-dev.tsv', 'random-split-5-dev')
+    write_seq_parser_input('data/mod-train.tsv', 'mod-train')
+    write_seq_parser_input('data/mod-test.tsv', 'mod-test')
+    write_seq_parser_input('data/mod-random-split-1-train.tsv', 'mod-random-split-1-train')
+    write_seq_parser_input('data/mod-random-split-1-dev.tsv', 'mod-random-split-1-dev')
+    write_seq_parser_input('data/mod-random-split-2-train.tsv', 'mod-random-split-2-train')
+    write_seq_parser_input('data/mod-random-split-2-dev.tsv', 'mod-random-split-2-dev')
+    write_seq_parser_input('data/mod-random-split-3-train.tsv', 'mod-random-split-3-train')
+    write_seq_parser_input('data/mod-random-split-3-dev.tsv', 'mod-random-split-3-dev')
+    write_seq_parser_input('data/mod-random-split-4-train.tsv', 'mod-random-split-4-train')
+    write_seq_parser_input('data/mod-random-split-4-dev.tsv', 'mod-random-split-4-dev')
+    write_seq_parser_input('data/mod-random-split-5-train.tsv', 'mod-random-split-5-train')
+    write_seq_parser_input('data/mod-random-split-5-dev.tsv', 'mod-random-split-5-dev')
 
     # execute this command in "acl2015" directory after unzipping their code to train:
     """
