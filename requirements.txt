@@ -250,7 +250,7 @@ unicodecsv==0.14.1
 Unidecode==0.4.20
 urllib==1.21.1
 urllib2==1498656401.94
-urllib3==1.21.1
+urllib3==1.26.5
 version-information==1.0.3
 vine==1.1.4
 virtualenv==15.1.0
