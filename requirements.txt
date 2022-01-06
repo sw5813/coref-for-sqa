@@ -27,7 +27,7 @@ boto==2.45.0
 Bottleneck==1.2.1
 breadability==0.1.20
 bz2file==0.98
-celery==4.1.0
+celery==5.2.2
 certifi==2017.4.17
 cffi==1.11.0
 chardet==3.0.4
