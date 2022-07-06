@@ -71,7 +71,7 @@ gensim==0.13.4.1
 graphviz==0.7.1
 h5py==2.6.0
 h5pyViewer==0.0.1.6
-html5lib==0.9999999
+html5lib==0.999999999
 htmltemplate==2.2.0
 idna==2.5
 IMDbPY==5.1.1
