@@ -110,7 +110,7 @@ MarkupSafe==0.23
 matplotlib==2.0.2
 memory-profiler==0.47
 mglearn==0.1.6
-mistune==0.7.3
+mistune==0.8.1
 mlxtend==0.6.0
 mock==2.0.0
 Morfessor==2.0.2a4
